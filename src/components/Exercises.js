@@ -24,7 +24,7 @@ function Exercises({setExercises,exercises,bodyPart}) {
 
     if(bodyPart === 'all'){
 
-      exerciseData = await fetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartList', exerciseOptions);
+      exerciseData = await fetchData('https://exercisedb.p.rapidapi.com/exercises', exerciseOptions);
     }else{
       exerciseData =   await fetchData(`https://exercisedb.p.rapidapi.com/exercises/bodyPart/${bodyPart}`, exerciseOptions);
     }
@@ -43,7 +43,7 @@ function Exercises({setExercises,exercises,bodyPart}) {
   const currentExercises = exercises.slice(indexOfFirstExercise, indexOfLastExercise);
 
   return (
-    <Box id="exercises" sx={{ mt: { lg: '109px' } }} mt="50px" p="20px">
+    <Box sx={{ mt: { lg: '109px' } }} mt="50px" p="20px">
       <Stack direction="row" sx={{ gap: { lg: '107px', xs: '50px' } }} flexWrap="wrap" justifyContent="center">
         {currentExercises.map((item,index) => (
           <ExerciseCard id={index} exercise={item}/>

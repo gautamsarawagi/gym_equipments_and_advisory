@@ -5,5 +5,13 @@
   width: 700px;
   height: 900px;
   margin-top: -330px;
+}
 
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+html{
+  scroll-behavior: smooth;
 }

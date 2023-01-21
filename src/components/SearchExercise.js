@@ -40,11 +40,11 @@ function SearchExercise({bodyPart,setBodyPart,setExercises}) {
   }
 
   return (
-    <div>
+    <div id="exercises">
       <Stack alignItems="center" mt="37px" p="20px" justifyContent="center">
         <Typography fontWeight={800} sx={{fontSize : {
           lg:'44px',xs:"25px"
-        },textAlign:'center'}}>
+        },textAlign:'center',my:5}}>
           Search the awesome <br/> exercises
         </Typography>
 
