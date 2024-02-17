@@ -33,7 +33,7 @@ function Exercises({setExercises,exercises,bodyPart}) {
     }
 
     fetchExerciseData();
-  }, [bodyPart])
+  }, [bodyPart, exercises,setExercises])
   
 
   const exercisesPerPage = 9;
