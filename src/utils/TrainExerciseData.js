@@ -12,7 +12,7 @@ export const trainExercisesData = [
         "name": "Knee",
         "image": BannerImage,
         "description": "Description will be added soon",
-        "link": "http://127.0.0.1:8000/arm"
+        "link": "http://127.0.0.1:8000/knee"
     },
 
 ]
