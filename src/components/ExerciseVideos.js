@@ -27,7 +27,6 @@ function ExerciseVideos({ exerciseVideos, name }) {
             key={index}
             className="exercise-video"
             href={`https://www.youtube.com/watch?v=${item.video.videoId}`}
-            target="_blank"
             style={{textDecoration:'none',justifyContent:'center'}}
           >
             <img
