@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import {Box,Typographhy,Stack} from "@mui/material"
+import {Box,Stack} from "@mui/material"
 import Pagination from "@mui/material/Pagination"
 import ExerciseCard from './ExerciseCard'
 
