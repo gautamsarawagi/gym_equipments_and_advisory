@@ -48,7 +48,7 @@ function TrainExercises() {
                 </CardContent>
                 <CardActions>
                   <Button size="small">
-                    <a href={item.link} target="_blank" rel="noreferrer">
+                    <a href={item.link} target="_blank" >
                       Start Exercise
                     </a>
                   </Button>
